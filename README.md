@@ -29,7 +29,7 @@ while True:
  ClientMessage=c.recv(1024).decode()
  c.send(ClientMessage.encode())
 ```
-## OUPUT
+## OUTPUT
 ## CLIENT:
 ![WhatsApp Image 2024-04-11 at 14 15 00_5a28ad07](https://github.com/23002027/3a.Sockets_Creation_for_Echo_Client_and_Echo_Server/assets/139752981/7a6579f1-6e60-45bd-b2c6-39d3e203704a)
 ## SERVER:
